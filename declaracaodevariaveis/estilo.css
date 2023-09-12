@@ -1,0 +1,26 @@
+.container{
+    
+    
+    margin: 0 auto;
+    width: 500px;
+    display: table;
+    text-align: center;
+    background-color: #191970;
+    border-radius: 12px;
+    padding: 25px;
+
+}
+
+
+body{
+    font-family: monospace;
+    background: -webkit-linear-gradient(to left, black, #191970);
+    background: linear-gradient(to left,  black, #191970);
+    color: white;
+    font-size: 40px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+}
