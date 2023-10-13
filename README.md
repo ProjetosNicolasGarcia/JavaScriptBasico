@@ -16,6 +16,10 @@ Aula do IMC
 
 http://projetosnicolasgarcia.github.io/JavaScriptBasico/IMC/imc.html
 
-laço de repetição
+Aula de laço de repetição
 
 http://projetosnicolasgarcia.github.io/JavaScriptBasico/tabuada/index.html
+
+Aula de programação orientada a objetos
+
+http://projetosnicolasgarcia.github.io/JavaScriptBasico/POO/index.html
