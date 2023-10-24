@@ -26,7 +26,5 @@ form.addEventListener("submit", function (e) {
     person.setDetails(firstName, lastName, language);
     person.displayDetails();
 
-    document.getElementById("firstName").value = "";
-    document.getElementById("lastName").value = "";
-    document.getElementById("language").value = "";
+    
 });
