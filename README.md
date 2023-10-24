@@ -23,3 +23,7 @@ http://projetosnicolasgarcia.github.io/JavaScriptBasico/tabuada/index.html
 Aula de programação orientada a objetos
 
 http://projetosnicolasgarcia.github.io/JavaScriptBasico/POO/index.html
+
+Aula de programação orientada a objetos V2
+
+http://projetosnicolasgarcia.github.io/JavaScriptBasico/POOv2/index.html
