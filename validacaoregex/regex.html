@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Regex </title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1>Regex</h1>
+                <nav>
+                    <ul>
+                        <li><a href="https://projetosnicolasgarcia.github.io/JavaScriptBasico/trocadeimagens/index.html">Trocador de imagens</a></li>
+                        <li><a href="index.html">Exemplo do Cadastro</a></li>
+                  
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <article>
+                <h2>O que é Regex?</h2>
+                <p>
+                    Na ciência da computação, expressões regulares (regex, regex abreviado ou regexp[1]) fornecem uma maneira simples e flexível de identificar cadeias de caracteres de interesse, como letras, palavras ou padrões de caracteres específicos. Expressões regulares são escritas em uma linguagem formal que pode ser interpretada por um processador de expressões regulares, um programa que atua como gerador de analisador ou examina texto e identifica partes que correspondem a especificações especificadas.
+
+O termo tem origem no trabalho do matemático americano Stephen Cole Kleen, que desenvolveu expressões regulares como notação para a álgebra dos chamados conjuntos regulares. Seu trabalho se tornou a base para os primeiros algoritmos de busca de computador e, mais tarde, para algumas das primeiras ferramentas de processamento de texto na plataforma Unix.
+
+Os usos atuais de expressões regulares incluem pesquisa e substituição de texto em editores de texto e linguagens de programação, validação de formato de texto (validação de protocolo ou formato digital), realce de sintaxe e filtragem de informações.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section  class="main-content">
+        <div class="container">
+            <article>
+                <h2>Funcionalidades</h2>
+                <p>
+                    Validação de Formato:
+
+                    Utilizar regex para validar se uma string segue um formato específico, como um número de telefone, endereço de e-mail ou código postal. <br> <br>
+
+                    Extração de Informações:
+                    
+                    Extrair informações específicas de uma string, como obter todos os números de um texto ou capturar partes específicas de uma URL.<br>  <br>
+
+                    Substituição de Texto:
+                    
+                    Substituir todas as ocorrências de um padrão por outro, permitindo a fácil edição de textos em massa.<br>  <br>
+
+                    Busca de Padrões:
+                    
+                    Procurar por ocorrências de padrões específicos em um texto, identificando palavras-chave, datas ou qualquer outra estrutura definida pela expressão regular.<br>  <br>
+
+                    Quantificadores:
+                    
+                    Utilizar quantificadores, como "*", "+", "?" para especificar a quantidade de vezes que um caractere ou grupo de caracteres pode ocorrer, facilitando a manipulação de repetições.<br>  <br>
+
+                    Classes de Caracteres:
+                    
+                    Utilizar classes de caracteres como "\d" para dígitos, "\w" para caracteres alfanuméricos e "\s" para espaços em branco, simplificando a definição de padrões.<br>  <br>
+                    Âncoras:
+                    
+                    Utilizar âncoras como "^" para representar o início de uma linha e "$" para o final de uma linha, restringindo a busca a posições específicas em uma string.<br>  <br>
+                    Grupos de Captura:
+                    
+                    Agrupar partes de uma expressão regular para facilitar a extração de informações específicas, permitindo acessar subseções identificadas durante a busca.<br>  <br>
+                    Condições:
+                    
+                    Utilizar operadores condicionais para criar expressões que correspondem a diferentes padrões com base em condições específicas.<br>  <br>
+                    Modificadores:
+                    
+                    Aplicar modificadores como "i" para tornar a busca insensível a maiúsculas e minúsculas, "g" para buscar globalmente em toda a string, e outros que ajustam o comportamento da expressão regular.<br>  <br>
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <section  class="main-content">
+        <div class="container">
+            <article>
+                <h2>Exemplos de Códigos</h2>
+                <div class="code-exemplo">
+                    <pre><code>
+                    function validarEmail(email) {
+                        const re = /\S+@\S+\.\S+/;
+                        return re.test(email);
+                    }
+                    
+                    function validarCPF(cpf) {
+                        // Verifica se o CPF está no formato correto
+                        return /^\d{3}\.\d{3}\.\d{3}-\d{2}$/.test(cpf);
+                    }
+                    
+                    function validardata (dataNascimento){
+                        // Verifica se a data de nascimento está no formato correto (DD/MM/YYYY)
+                        const regexData = /^(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/\d{4}$/;
+                        return regexData.test(dataNascimento);
+                    }
+                    
+                    function validarTelefone(telefone) {
+                        // Verifica se o telefone está no formato correto
+                        return /^\(\d{2}\)\d{5}-\d{4}$/.test(telefone);
+                    }
+                    
+</code></pre>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Regex | Nicolas Garcia de Souza Santos.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

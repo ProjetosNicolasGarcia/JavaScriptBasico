@@ -1,0 +1,98 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #101820;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FEE715;
+    color: #101820;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #101820;
+    font-weight: bold;
+}
+
+.main-content {
+    padding: 40px 0;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h2 {
+    color:#FEE715
+}
+
+p{
+    color: #FEE715;
+}
+
+code {
+    display: block;
+    white-space: pre-wrap;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #FEE715;
+    color: #101820;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p{
+    color: #101820;
+}
+
+/* Adicionando regras de mídia para tornar o site responsivo */
+
+@media screen and (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+}
