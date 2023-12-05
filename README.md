@@ -27,3 +27,7 @@ http://projetosnicolasgarcia.github.io/JavaScriptBasico/POO/index.html
 Aula de programação orientada a objetos V2
 
 http://projetosnicolasgarcia.github.io/JavaScriptBasico/POOv2/index.html
+
+Trocador de Imagens
+http://projetosnicolasgarcia.github.io/JavaScriptBasico/trocadeimagens/index.html
+
