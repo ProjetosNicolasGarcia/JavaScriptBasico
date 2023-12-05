@@ -31,3 +31,6 @@ http://projetosnicolasgarcia.github.io/JavaScriptBasico/POOv2/index.html
 Trocador de Imagens
 http://projetosnicolasgarcia.github.io/JavaScriptBasico/trocadeimagens/index.html
 
+Trabalho de Regex
+
+http://projetosnicolasgarcia.github.io/JavaScriptBasico/validacaoregex/regex.html
